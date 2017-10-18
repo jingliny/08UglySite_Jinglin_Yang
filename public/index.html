@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<body>
+<style>
+    header,footer{
+        padding: 1em;
+        color:white;
+        background-color: black;
+        clear:left;
+        text-align:center;
+    }
+    body {background-color: bisque;
+          color: black;
+    }
+    blockquote{color: black;}
+    img{
+        display: block;
+        margin: auto;
+    }
+    div{
+        background-color: burlywood;
+        color: black;
+    }
+</style>
+    <header>
+        <h1 style="font-size: 36pt"><i>Fenghuang County</i></h1>
+    </header>
+    <button type="button" onclick="myFunction()">Clike Me!</button>
+    <p id="demo">click to get more information.</p>
+    <script>
+        function myFunction(){
+            document.getElementById("demo").innerHTML = "This is Fenghuang.";
+            document.getElementById("demo").style.color = "blue";
+            document.getElementById("demo").style.fontSize = "200%";
+        }
+    </script>
+    <img src="images/ancient_town.jpg" alt="old town" width="345" height="345">
+    <input type="button" value="old town">  
+    <img src="images/riverside.jpg" alt="riverside" width="345" height="345">
+    <input type="button" value="riverside">
+    <img src="images/fenghuang.jpg" alt="fenghuang" width="345" height="345">
+    <input type="button" value="fenghuang">
+    <div>
+    <p>Here's the quote of Fenghuang County from Wikipedia:</p>
+    <blockquote cite="https://en.wikipedia.org/wiki/Fenghuang_County">
+        Fenghuang County (simplified Chinese: 凤凰县; traditional Chinese: 鳳凰縣; pinyin: Fènghuáng Xiàn; literally: "phoenix county") is a county of Hunan Province, China, it is under the administration of Xiangxi Autonomous Prefecture.Located on the western margin of the province and the southern Xiangxi, it is immediately adjacent to the eastern edge of Guizhou Province. The county is bordered to the north by Huayuan County and Jishou City, to the east by Luxi County, to the southeast by Mayang County, to the southwest and the west by Bijiang District of Tongren City and Songtao County of Guizhou. Fenghuang County covers 1,745 km2 (674 sq mi), as of 2015, It had a registered population of 428,294 and a resident population of 363,700.[4] The county has 13 towns and 4 townships under its jurisdiction, the county seat is Tuojiang (沱江镇).[5]
+    </blockquote>
+    <p><a href="https://www.google.com/search?q=fenghuang+county&source=lnms&tbm=isch&sa=X&ved=0ahUKEwj_5du-8frWAhVE7CYKHa6PBE4Q_AUICygC&biw=1440&bih=745"Click here</a>Here is a link to get more pictures of Fenghuang County.</p>
+    </div>
+</body>
+    <footer>
+    Copyright.
+    </footer>  
+</html>
+
